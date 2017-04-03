@@ -1,0 +1,50 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+#menu {
+    border-bottom: 2px dashed #000;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+#menu a {
+    padding-left: 7px;
+    color: #fff;
+    border-left: 3px solid #F0FF00;
+}
+
+#menu a:hover {
+    color: #F0FF00;
+}
+
+h1 + p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 30px 20px 50px 20px;
+    margin-top: 20px;
+}
+
+.content a {
+    color: #131E8D;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
